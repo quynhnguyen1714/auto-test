@@ -1,6 +1,0 @@
-type,username,password,expected_result
-valid,standard_user,secret_sauce,login_success
-locked,locked_out_user,secret_sauce,account_locked
-invalid_password,standard_user,wrong_pass,login_fail
-invalid_username,wrong_user,secret_sauce,login_fail
-empty_both,,,login_fail
